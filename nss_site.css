@@ -1,0 +1,47 @@
+body{
+    
+}
+#logo{
+    padding:0px;
+    width:80px;
+    height:80px;
+}
+#start{
+    float:right;
+    margin-right:29%;
+}
+h5{
+    float:right;
+}
+#main{
+    margin-left:120px;
+    margin-top:30px;
+    background-color:white;
+    border:solid;
+    border-color:white;
+   height:35px;
+    width:110px;
+    font-size:18px;
+}
+.btton{
+    margin-left:0px;
+    background-color:white;
+    border:solid;
+    border-color:white;
+   height:35px;
+    width:93px;
+    font-size:18px;
+}
+.bttn{
+    margin-left:0px;
+    background-color:white;
+    border:solid;
+    border-color:white;
+   height:35px;
+    width:150px;
+    font-size:18px;
+}
+#cent{
+    margin-left:600px;
+
+}
