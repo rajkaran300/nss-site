@@ -3,45 +3,52 @@ body{
 }
 #logo{
     padding:0px;
-    width:80px;
-    height:80px;
-}
-#start{
-    float:right;
-    margin-right:29%;
+    width:130px;
+    height:100px;
+    float:left;
 }
 h5{
     float:right;
 }
-#main{
+#start{ 
+    float:left;
+    
+}
+
+.main{
+    background-color:transparent;
+    backdrop-filter:blur(5px); 
+    border:solid;
+    border-color:transparent;
+    color:white;
+    height:35px;
+    font-size:18px;
+    float:left;
+    cursor:pointer;
+    transition-duration:.6s;
+}
+.b1{
     margin-left:120px;
-    margin-top:30px;
-    background-color:white;
-    border:solid;
-    border-color:white;
-   height:35px;
     width:110px;
-    font-size:18px;
 }
-.btton{
-    margin-left:0px;
-    background-color:white;
-    border:solid;
-    border-color:white;
-   height:35px;
+.b2{
     width:93px;
-    font-size:18px;
 }
-.bttn{
-    margin-left:0px;
-    background-color:white;
-    border:solid;
-    border-color:white;
-   height:35px;
+.b3{
     width:150px;
-    font-size:18px;
 }
+
 #cent{
     margin-left:600px;
-
+}
+#bbr{
+    backdrop-filter:blur(5px);
+    height:170px;
+    --scroll:10;
+}
+#mm{
+    margin-top:480px;
+    height:90px;
+    backdrop-filter:blur(5px);
+    padding:30px;
 }
