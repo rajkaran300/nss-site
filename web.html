@@ -1,0 +1,71 @@
+<html>
+<head>
+<title>NSS community</title>
+<link rel="stylesheet" href="nss_site.css"> 
+<style>
+    .main{
+        display:inline-block;
+        background-color:rgb(34, 3, 70);
+        border:solid;
+        border-color:rgb(34, 3,70);
+        color:white;
+        height:45px;
+        font-size:18px;
+        cursor:pointer;
+        transition-duration:.6s;
+    }
+    .main:hover {
+       background-color:rgb(212, 4, 4);
+       color:white;
+       border-color:rgb(212, 4, 4);
+    }
+    .b1{
+        margin-left:120px;
+        width:110px;
+    }
+    .b2{
+         width:93px;
+    }
+    b4{
+        width:110;
+    }
+    .b3{
+        width:180px;
+    }
+    .main span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    }
+
+    .main span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+    }
+
+    .main:hover span {
+    padding-right: 25px;
+    }
+
+    .main:hover span:after {
+    opacity: 1;
+    right: 0;
+    }
+
+</style>
+</head>
+<body>
+    <div id="mainc">
+        <div id="bbr">
+    <img id="logo" src="nss.png">
+    <h5>INDIAN INSTITUTE OF TECHNOLOGY,HAMIRPUR<br>Hamirpur,Himachal Pradesh,pin-</h5>
+    <h1 id="start">Natonal Service Scheme,NIT Hamirpur</h1>
+    <br style="clear:both"/>
+    <button class="main b1" onclick="window.location.href='nss_site.html'"><span>Home</span></button><button class="main b4"><span>volunteers</span></button><button class="main b2"><span>Events</span></button><button class="main b2"><span>About</span></button><button class="main b2" onclick="window.location.href='web.html'"><span>Team</span></button><button class="main b3"><span>Blood-Donation</span></button>
+</body>
+</html>
