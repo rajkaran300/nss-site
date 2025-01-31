@@ -37,7 +37,6 @@ h5{
 .b3{
     width:150px;
 }
-
 #cent{
     margin-left:600px;
 }
@@ -51,4 +50,47 @@ h5{
     height:90px;
     backdrop-filter:blur(5px);
     padding:30px;
+}
+.frame{
+    border-style:solid;
+    border-color:black;
+       width:280px;
+       height:370px;
+    border-radius:20px;
+    box-shadow:10px 10px 10px ;
+}
+.first{
+    margin-left:40%;
+    margin-top:100px;
+
+}
+.work{
+    margin-left:10px;
+    border-style:solid;
+    border-color:white;
+       width:260px;
+       height:40px;
+       display:flex;
+       flex-direction:row;
+       justify-content:space-around;
+       margin-top:0px;
+}
+#s{
+    margin-top:4px;
+}
+#k{
+    margin-top:-20px;
+    color:grey
+}
+.second{
+    margin-top:150px;
+    margin-left:10px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+.set{
+    width:280px;
+    height:230px;
+    border-radius:17px;
 }
